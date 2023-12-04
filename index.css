@@ -1,0 +1,75 @@
+            body {
+                background-color: #2D2926;
+            }
+            h1{
+                color: white;   
+            }
+            header {
+                background: no-repeat center center;
+                background-size: cover;
+                color:white;
+            }
+            main {
+                background-color: #2D2926;
+            }
+            .card {
+                color: black;
+            }
+            
+            .container {
+                color: white;
+            }
+            .color-overlay {
+                background-color: rgba(46, 44, 44, 0.4);
+                min-height: 60vh;
+            }
+
+            .singleCol {
+                max-width: 750px;   
+            }
+
+            .my-2 {
+                color: white;
+                font-style: italic;
+                letter-spacing: 0.1em;
+                
+            }
+
+            .hd {
+                background-color: #2D2926;
+            }
+
+            .navbar-light, .navbar-toggler {
+                color: orangered;
+                border-color: orangered;
+                color: white;
+            }  
+            .navbar-light, .navbar-toggler:hover {
+                color:purple;
+                border-color: purple;
+                
+            }
+            .my-23foot {
+            background-color: #2D2926;
+             }
+             
+
+            footer {
+                background-color: #2D2926;
+                color: wheat;
+                height: 3px;
+            }
+
+            footer a {
+                color: white;
+            }
+
+            footer a:hover {
+                color: #dfdfdf;
+            }
+
+            @media (max-width: 767.98px) {
+                .color-overlay {
+                    min-height: 30vh;
+                }
+            }
